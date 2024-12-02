@@ -1,0 +1,149 @@
+:root {
+    --color-background-purple: #CEB4FE;
+    --color-background-blue: #061FFF;
+    --color-background-yellow: #DFFB3A;
+    --color-background-orange: #F94A24;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Fira Mono', 'Fira Code', monospace;
+}
+
+h2 {
+    font: 30px;
+}
+
+p{
+    font: 20px;
+}
+
+a {
+    text-decoration: none;  /* Quitar el subrayado */
+    color: black;           /* Cambiar el color a negro */
+}
+.section {
+    padding: 20px;
+    text-align: center;
+    color: #000;
+}
+.header {
+    background-color: var(--color-background-yellow);
+    padding-left: 20px ;
+    padding-right: 20px ;
+    display: flex;
+    justify-content: flex-end; /* Alinea contenido en la parte superior verticalmente */
+    align-items: flex-end;
+    gap: 20px;
+}
+.header h1 {
+    margin: 0;
+    font-size: 20px;
+}
+.purple-section {
+    background-color: #CEB4FE;
+    color: var(--color-background-blue);
+    font-size: 50px;
+    font-style: normal;
+    width: 100%;          
+    height: 400px;
+    padding: 40px 20px;
+    display: flex;             
+    align-items: flex-end;     
+    justify-content: flex-start; 
+    overflow: hidden; /* Evita que el contenido se desborde */
+}
+
+.purple-section img {
+    width: auto;          /* La imagen ocupa el 100% del ancho de su contenedor */
+    height: auto;    
+}
+
+.white-section {
+    background-color: #ffffff;
+    color: var(--color-background-blue);
+    font-size: 50px;
+    width: 100%;          
+    height: 400px;
+    padding: 40px 20px;
+    display: flex;             
+    align-items: flex-end;     
+    justify-content: flex-start; 
+}
+.abortion-section {
+    background-color: var(--color-background-orange);
+    color: var(--color-background-yellow);
+    font-size: 20px;
+    width: 100%;          
+    height: 600px;
+    padding: 20px 20px;
+}
+.relations-section {
+    background-color: var(--color-background-yellow);
+    color: var(--color-background-orange);
+    font-size: 30px;
+    width: 100%;          
+    height: 600px;
+    padding: 20px 20px;
+    overflow: hidden; /* Evita que el contenido se desborde */
+}
+
+.relations-section img {
+    width: auto;          /* La imagen ocupa el 100% del ancho de su contenedor */
+    height: auto;    
+
+}
+
+
+.questions-section {
+    background-color: #061FFF;
+    color: white;
+    font-size: 30px;
+    width: 100%;          
+    height: 400px;
+    padding: 20px 20px;
+}
+.purple2 {
+    background-color: #F0BBF3;
+    font-size: 30px;
+    color: #DFFB3A;
+    width: 100%;          
+    height: 600px;
+    padding: 20px 20px;
+}
+.footer {
+    background-color: black;
+    color: white;
+        padding-left: 20px ;
+    padding-right: 20px ;
+    display: flex;
+    justify-content: flex-end; /* Alinea contenido en la parte superior verticalmente */
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.chatbotAborto, .webAborto {
+    background-color: #F0BBF3; /* Color de fondo */
+    color: white; /* Color del texto */
+    font-size: 16px; /* Tamaño del texto */
+    padding: 10px 20px; /* Espaciado interno (arriba/abajo, izquierda/derecha) */
+    border: none; /* Quita el borde por defecto */
+    border-radius: 25px; /* Bordes redondeados más grandes */
+    text-align: center; /* Centra el texto dentro del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    display: inline-block; /* Hace que el botón sea de tipo bloque en línea */
+    transition: background-color 0.3s ease; /* Efecto de transición al pasar el mouse */
+}
+.chatRelaciones, .webRelaciones {
+    background-color: var(--color-background-blue); /* Color de fondo */
+    color: white; /* Color del texto */
+    font-size: 16px; /* Tamaño del texto */
+    padding: 10px 20px; /* Espaciado interno (arriba/abajo, izquierda/derecha) */
+    border: none; /* Quita el borde por defecto */
+    border-radius: 25px; /* Bordes redondeados más grandes */
+    text-align: center; /* Centra el texto dentro del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    display: inline-block; /* Hace que el botón sea de tipo bloque en línea */
+    transition: background-color 0.3s ease; /* Efecto de transición al pasar el mouse */
+}
